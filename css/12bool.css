@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   background-color: lightpink;
 }
@@ -17,14 +17,11 @@
 /* .debug {
   background-color: lightpink;
 } */
-.debug .container {
-  /* border: 2px solid grey; */
-}
-.minicol {
+.container .container [class*="col-"] {
   background-color: #e069aa;
-  padding: 5px;
-
+  border: 2px solid white;
 }
+
 [class*="col-"] {
   float : left;
   border: 1px solid black;
