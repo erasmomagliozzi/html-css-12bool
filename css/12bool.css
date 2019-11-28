@@ -14,14 +14,6 @@
   display: table;
   clear: both;
 }
-/* .debug {
-  background-color: lightpink;
-} */
-.container .container [class*="col-"] {
-  background-color: #e069aa;
-  border: 2px solid white;
-}
-
 [class*="col-"] {
   float : left;
   border: 1px solid black;
